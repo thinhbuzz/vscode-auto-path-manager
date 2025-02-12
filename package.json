@@ -1,0 +1,72 @@
+{
+  "name": "auto-path-manager",
+  "displayName": "Auto Path Manager",
+  "description": "Automatically add predefined and user-configured directories to the terminal's PATH in Visual Studio Code.",
+  "publisher": "thinhbuzz",
+  "version": "1.0.1",
+  "icon": "assets/logo-128x128.png",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "Auto Add Paths to Terminal",
+      "properties": {
+        "autoAddPathsToTerminal.defaultPaths": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [
+            "node_modules/.bin",
+            "vendor/bin"
+          ],
+          "description": "Default list of directories to add to the terminal's PATH."
+        },
+        "autoAddPathsToTerminal.additionalPaths": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [],
+          "description": "Additional user-defined directories to add to the terminal's PATH."
+        }
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thinhbuzz/auto-path-manager.git"
+  },
+  "scripts": {
+    "vscode:prepublish": "pnpm run package",
+    "compile": "pnpm run check-types && pnpm run lint && node esbuild.js",
+    "watch": "npm-run-all -p watch:*",
+    "watch:esbuild": "node esbuild.js --watch",
+    "watch:tsc": "tsc --noEmit --watch --project tsconfig.json",
+    "package": "pnpm run check-types && pnpm run lint && node esbuild.js --production",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint src",
+    "vsce:package": "vsce package --no-dependencies",
+    "vsce:publish": "vsce publish --no-dependencies"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.18",
+    "@types/vscode": "^1.97.0",
+    "@typescript-eslint/eslint-plugin": "^8.24.0",
+    "@typescript-eslint/parser": "^8.24.0",
+    "@vscode/vsce": "^3.2.2",
+    "esbuild": "^0.25.0",
+    "eslint": "^9.20.1",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.7.3"
+  },
+  "packageManager": "pnpm@9.15.4"
+}
