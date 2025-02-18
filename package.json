@@ -3,7 +3,8 @@
   "displayName": "Auto Path Manager",
   "description": "Automatically add predefined and user-configured directories to the terminal's PATH in Visual Studio Code.",
   "publisher": "thinhbuzz",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "license": "MIT",
   "icon": "assets/logo-128x128.png",
   "engines": {
     "vscode": "^1.97.0"
@@ -43,7 +44,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thinhbuzz/auto-path-manager.git"
+    "url": "https://github.com/thinhbuzz/vscode-auto-path-manager.git"
   },
   "scripts": {
     "vscode:prepublish": "pnpm run package",
