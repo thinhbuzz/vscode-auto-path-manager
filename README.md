@@ -1,7 +1,7 @@
 # **Auto Path Manager**
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/thinhbuzz/auto-path-manager)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/thinhbuzz/auto-path-manager/blob/main/LICENSE)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/thinhbuzz/vscode-auto-path-manager)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/thinhbuzz/vscode-auto-path-manager/blob/main/LICENSE)
 
 Automatically add predefined and user-configured directories (e.g., `node_modules/.bin`, `vendor/bin`) to the terminal's PATH in Visual Studio Code. Simplify access to local binaries and tools without manual configuration.
 
@@ -26,11 +26,11 @@ Automatically add predefined and user-configured directories (e.g., `node_module
 ### **From Source**
 1. Clone this repository:
    ```bash
-   git clone https://github.com/thinhbuzz/auto-path-manager.git
+   git clone https://github.com/thinhbuzz/vscode-auto-path-manager.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd auto-path-manager
+   cd vscode-auto-path-manager
    ```
 3. Install dependencies:
    ```bash
@@ -88,7 +88,7 @@ We welcome contributions from the community! Here’s how you can help:
 1. **Fork the Repository**: Click the "Fork" button on the top-right corner of this page.
 2. **Clone Your Fork**:
    ```bash
-   git clone https://github.com/thinhbuzz/auto-path-manager.git
+   git clone https://github.com/thinhbuzz/vscode-auto-path-manager.git
    ```
 3. **Create a New Branch**:
    ```bash
@@ -101,7 +101,7 @@ We welcome contributions from the community! Here’s how you can help:
 ---
 
 ## **License**
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/thinhbuzz/auto-path-manager/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/thinhbuzz/vscode-auto-path-manager/blob/main/LICENSE) file for details.
 
 ---
 
@@ -112,7 +112,7 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 ---
 
 ## **Support**
-If you encounter any issues or have suggestions, please open an issue in the [GitHub Issues](https://github.com/thinhbuzz/auto-path-manager/issues) section.
+If you encounter any issues or have suggestions, please open an issue in the [GitHub Issues](https://github.com/thinhbuzz/vscode-auto-path-manager/issues) section.
 
 ---
 
