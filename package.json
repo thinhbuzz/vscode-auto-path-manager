@@ -3,7 +3,7 @@
   "displayName": "Auto Path Manager",
   "description": "Automatically add predefined and user-configured directories to the terminal's PATH in Visual Studio Code.",
   "publisher": "thinhbuzz",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "icon": "assets/logo-128x128.png",
   "engines": {
@@ -59,15 +59,15 @@
     "vsce:publish": "vsce publish --no-dependencies"
   },
   "devDependencies": {
-    "@types/node": "^20.17.50",
+    "@types/node": "^20.19.25",
     "@types/vscode": "1.96.0",
-    "@typescript-eslint/eslint-plugin": "^8.32.1",
-    "@typescript-eslint/parser": "^8.32.1",
-    "@vscode/vsce": "^3.4.2",
-    "esbuild": "^0.25.4",
-    "eslint": "^9.27.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.4",
+    "@typescript-eslint/parser": "^8.46.4",
+    "@vscode/vsce": "^3.7.0",
+    "esbuild": "^0.27.0",
+    "eslint": "^9.39.1",
     "npm-run-all": "^4.1.5",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.3"
   },
   "packageManager": "pnpm@9.15.4"
 }

@@ -25,9 +25,9 @@ export function handleEnvForWorkspace(
 
     if (pathsToAdd.length > 0) {
       // Update PATH variable
-      const paths = pathsToAdd.join(delimiter);
+      const paths = [''].concat(pathsToAdd).concat('').join(delimiter);
       console.log("Updating PATH:", paths, "in", workspacePath);
-      context.environmentVariableCollection.append("PATH", `;${paths};`, {
+      context.environmentVariableCollection.append("PATH", paths, {
         applyAtProcessCreation: true,
         applyAtShellIntegration: true,
       });
