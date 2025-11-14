@@ -1,6 +1,6 @@
 # **Auto Path Manager**
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/thinhbuzz/vscode-auto-path-manager)
+[![Version](https://img.shields.io/badge/version-1.0.5-blue.svg)](https://github.com/thinhbuzz/vscode-auto-path-manager)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/thinhbuzz/vscode-auto-path-manager/blob/main/LICENSE)
 
 Automatically add predefined and user-configured directories (e.g., `node_modules/.bin`, `vendor/bin`) to the terminal's PATH in Visual Studio Code. Simplify access to local binaries and tools without manual configuration.
